@@ -25,7 +25,7 @@ class UserAccount {
     }
 }
 
-public class UserAccountSystem {
+public class UserAccountSystem { // This is for creation an account 
     private Map<String, UserAccount> users;
     private UserAccount currentUser;
     private Scanner scanner;
