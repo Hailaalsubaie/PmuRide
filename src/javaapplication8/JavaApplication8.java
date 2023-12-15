@@ -108,7 +108,7 @@ public class JavaApplication8 {
         UserStory story2 = new UserStory(2, "Create Dashboard UI", 8);
         story2.addTask(new Task(3, "Design dashboard layout"));
         story2.addTask(new Task(4, "Implement data visualization"));
-        // Add user stories to the product backlog
+       
         scrumTeam.addToProductBacklog(story1);
         scrumTeam.addToProductBacklog(story2);
         // Start a sprint
