@@ -117,6 +117,7 @@ public class JavaApplication9 {
                     break;
                 default:
                     System.out.println("Invalid option not existing. Please select a valid option.");
+                   /** when the user choose invalid option*/
             }
         }
 
