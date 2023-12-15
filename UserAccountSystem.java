@@ -44,7 +44,7 @@ public class UserAccountSystem { // This is for creation an account
             return;
         }
 
-        System.out.println("Enter password:");
+        System.out.println("Please Enter your password:");
         String password = scanner.nextLine();
 
         UserAccount newUser = new UserAccount(username, password);
@@ -57,7 +57,7 @@ public class UserAccountSystem { // This is for creation an account
         String username = scanner.nextLine();
 
         if (!users.containsKey(username)) {
-            System.out.println("User does not exist. Please create an account.");
+            System.out.println("The User does not exist. Please create an account.");
             return;
         }
 
