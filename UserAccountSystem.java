@@ -116,7 +116,7 @@ public class JavaApplication9 {
                     System.out.println("Exiting...");
                     break;
                 default:
-                    System.out.println("Invalid option. Please select a valid option.");
+                    System.out.println("Invalid option not existing. Please select a valid option.");
             }
         }
 
